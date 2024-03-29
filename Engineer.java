@@ -1,4 +1,5 @@
-public class Engineer {
+public class Engineer extends DevopsEngineer
+{
     int Salary=70000;
     String name="Ranjita.H.Illur";
     String Id="01fe22bca195";
@@ -13,6 +14,6 @@ public class Engineer {
     public static void main(String[] args){
         Engineer  e = new Engineer();
         e.display();
-      
+        e.displaydetails();
     }
 }
